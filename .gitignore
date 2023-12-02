@@ -1,0 +1,10 @@
+# Ignore MikTeX and VSCode related files
+.idea/
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.pdf
+*.synctex.gz
+out/
