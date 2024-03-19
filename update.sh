@@ -1,9 +1,10 @@
 #!/bin/bash
+
+source env.sh
+
 commit_mesasge="$1"
 branch_name=$(git branch --show-current)
-resume_archive_path="/Users/bibhabpattnayak/Documents/Resumes/ResumeArchive/"
-work_dir="/Users/bibhabpattnayak/Documents/Resumes/"
-final_resume_path="/Users/bibhabpattnayak/Documents/Resumes/Bibhab-Pattnayak-Resume.pdf"
+
 metadata_file_name="metadata.json"
 echo " Branch Name: $branch_name"
 git status
