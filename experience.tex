@@ -3,16 +3,17 @@
 \resumeSubHeadingListStart
 
 \resumeSubheading {Amazon Web Services} {Mar 2024 - Present} 
-{Software Development Engineer II} {Seattle, WA}
+{Software Development Engineer II} {Redmond, WA}
 \small
 \begin{justify}
 \vspace{5pt}
       \resumeItemListStart
-        \resumeItem{As a member of the AWS Glue Data catalog team, worked on design and development of highly distributed, mutltitenant Data catalog service and various supporting components serving over millions of request per day across the globe.}
-        \resumeItem{Designed and implemented resource-based throttling in AWS Glue Data Catalog, resolving the team’s most critical availability issue by safeguarding underlying DynamoDB resources and intelligently throttling requests based on targeted resource access.}
-        \resumeItem{Implemented fleet-wide cloud security tests to cover AuthZ, AuthN, Attribute-based access control, and Resouce-based permission testing, which is run as pre-deployment check across 3000 hosts. }
-    
-        
+        \resumeItem{Designed and implemented a \textbf{Resource-based throttling system} that safeguarded DynamoDB infrastructure by dynamically managing request flows based on resource utilization patterns, reducing \textbf{critical availability incidents by 80\%}}
+        \resumeItem{Worked on design and development of \textbf{AWS Glue Data Catalog}, a highly distributed multi-tenant service processing \textbf{10M+ daily requests across 35+ global regions}, delivering enterprise-grade enterprise-grade reliability and compliance.}
+        \resumeItem{ Built a comprehensive cloud security testing framework covering authentication, authorization, ABAC, and resource-based permissions, automating pre-deployment validation across \textbf{3,000+ production hosts}}
+        \resumeItem{Pioneered and championed \textbf{shift-left integration testing} for the core monolith service of Glue Data Catalog and LakeFormation permissions, reducing deployment cycle time by \textbf{several weeks} and boosting engineering velocity across multiple teams}
+        \resumeItem{Drove design/code reviews and provided technical mentorship on distributed system design and best practices.}
+
 \resumeItemListEnd
 \vspace{2pt}
 \resumeItemColon{\textit{Stack}}{\textit{Java, Spring,  Python, Ruby, TypeScript, Rust, DynamoDB, Kinesis, AmazonSQS}}
@@ -22,23 +23,20 @@
 \vspace{10pt}
 
 
-\resumeSubheading {VMware} {Feb 2022 - Nov 2023} 
+\resumeSubheading {VMware} {Feb 2022 - Jan 2024} 
 {Member of Technical Staff} {Austin, TX}
 \small
 \begin{justify}
 \vspace{5pt}
       \resumeItemListStart
-        \resumeItem{Worked on the design and development of highly distributed, and configuration driven observability, alerting and incident management platforms and SaaS services  for \textbf{VMware cloud (VMC on AWS)}.}
-        \resumeItem{Developed high volume, low latency data collection and incident management pipelines providing alert standardization, enrichment, correlation, auto-remediation, and escalation serving more than \textbf{3000 Software-Defined Data Centers}.}
-        \resumeItem{Implemented an offset auto-advancement feature in the \textbf{data plane} (deployed in Kubernetes cluster), by dynamically adjusting Kafka partition offsets to prioritize live data over stale during high latency in downstream services.}
-        \resumeItem{Designed and implemented end-to-end testing suite for the alerting workflow within a distributed multi-tenant system, ensuring comprehensive coverage across diverse tenants and environments, resulting in a significant \textbf{30\% reduction} in critical system errors.}
-        \resumeItem{Worked on the design and implementation of an alert correlation service, replacing BigPanda(Alert Correlation Engine), aimed at minimizing on-call toil by automatically grouping related alerts into single, manageable incidents for on-call engineers.}
-        \resumeItem{Realized \textbf{400k monthly savings} through strategic log cost optimization by partitioning logs into indexed and non-indexed segments.}
-        \resumeItem{Led the responsibilities of identifying and fixing \textbf{security} vulnerabilities for 20+ platform and SaaS services}
-        \resumeItem{Managed critical \textbf{on-call} responsibilities while resolving production outages and ensuring uninterrupted service delivery.}
-        \resumeItem{Developed \textbf{Python automation scripts} to import, validate and delete alerts in cloud-based alert management system.}
-        \resumeItem{Led operational improvement initiatives, catalyzing a \textbf{2x surge} in ticket throughput while notably slashing Mean Time to Resolution, Mean Time to Acknowledge, and total backlog size, fostering a process-centric approach.}
-\resumeItemListEnd
+        \resumeItem{Worked on the design and development of distributed, configuration-driven observability, alerting, and incident management platforms and SaaS services for \textbf{VMware cloud(VMC on AWS)}.}
+        \resumeItem{Built high volume, low latency data collection and incident management pipelines providing alert standardization, enrichment, correlation, auto-remediation, and escalation serving \textbf{2000+ Software-Defined Data Centers}.}
+        \resumeItem{Designed and implemented an offset auto-advancement feature in the data plane, dynamically adjusting Kafka partition offsets to prioritize live data over stale data during downstream latency, which improved real-time alerting reliability by over \textbf{95\%}.}
+        %\resumeItem{Designed and implemented end-to-end testing suite for the alerting workflow within a distributed multi-tenancy system, ensuring comprehensive coverage across diverse tenants and environments, resulting in a significant 30\% reduction in critical system errors.}
+        \resumeItem{Worked on the design and implementation of an \textbf{Alert Correlation Service}, replacing BigPanda(Alert Correlation Engine), aimed at minimizing on-call toil by automatically grouping related alerts into single, manageable incidents for on-call engineers.}
+        \resumeItem{Delivered \textbf{\$400K annual savings} through strategic log cost optimization by partitioning logs into indexed and non-indexed segments.}
+        %\resumeItem{Led operational improvement initiatives, catalyzing a 2x surge in ticket throughput while notably slashing Mean Time to Resolution, Mean Time to Acknowledge, and total backlog size, fostering a process-centric approach}
+    \resumeItemListEnd
 \vspace{5pt}
 \resumeItemColon{\textit{Stack}}{\textbf{\textit{Java, Spring Boot, Python, Kafka, Kubernetes, Docker, Amazon RDS, Concourse CI}}}
 % \end{itemize}
@@ -64,8 +62,8 @@
         % \resumeItem{Modified App service, API service and data layer to add embedded resources to the API. Used inline queries and stored procedures.}
         % \resumeItem {Modified App service, API service to enhance a feature. Added embedded resource to media plan API to respond with JSON that contain media plan details.}
         %\resumeItem {Scaled the application, enabling RabbitMQ, while achieving asynchronous execution of tasks.}
-        \resumeItem {Responsible for creating the design documents and unit tests with test plans and test cases for developed features.}
-        \resumeItem{Played a pivotal role in resource allocation, task delegation, and mentoring team members to foster their professional growth and development.}
+        %\resumeItem {Responsible for creating the design documents and unit tests with test plans and test cases for developed features.}
+        %\resumeItem{Played a pivotal role in resource allocation, task delegation, and mentoring team members to foster their professional growth and development.}
 \resumeItemListEnd
 % \end{itemize}
 \end{justify}
